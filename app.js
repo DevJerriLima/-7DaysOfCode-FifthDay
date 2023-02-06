@@ -33,7 +33,7 @@ while(addProdutos == true){
         addProdutos = false;
     }   
 }
-alert(lCongelados, lBebidas);
 
+alert(`Congelados: ${lCongelados}\n Frutas: ${lFrutas}\n Frios: ${lFrios}\n Laticínios ${lLaticinos}\n Carnes: ${lCarnes}\n Bebidas: ${lBebidas}\n Cereais: ${lCereais}`);
    
 
